@@ -80,3 +80,27 @@ h3 {
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
 }
+
+@media(max-width: 800px) {
+    body {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heart {
+        width: 200px;
+        margin: 4rem auto;
+        animation: none;
+        height: 50%;
+        justify-content: center;
+
+    }
+
+    h3 {
+        font-size: 2rem;
+        justify-content: end;
+        text-align: left;
+    }
+}

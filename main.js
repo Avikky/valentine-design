@@ -10,10 +10,12 @@ function init() {
     new TypeWriter(txtElement, words, wait);
 }
 
+// Function to typewriter on mobile screen
+
 //Es6 Class method for typewriter function
 
 class TypeWriter {
-    constructor(txtElement, words, wait = 3000) {
+    constructor(txtElement, words, wait = 1000) {
         this.txtElement = txtElement;
         this.words = words;
         this.txt = '';
