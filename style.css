@@ -91,7 +91,7 @@ h3 {
 
     .heart {
         width: 200px;
-        margin: 4rem auto;
+        margin: 7rem auto;
         animation: none;
         height: 50%;
         justify-content: center;
@@ -99,6 +99,7 @@ h3 {
     }
 
     h3 {
+        margin-top: -30px;
         font-size: 2rem;
         justify-content: end;
         text-align: left;
